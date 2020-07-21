@@ -63,16 +63,6 @@ _buildStandingListTile(Team team) {
           child: Center(
             child: Text(team.points.toString()),
           ),
-
-
-
-
-
-
-
-
-
-          
         )
       ],
     ),

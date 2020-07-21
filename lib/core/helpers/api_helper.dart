@@ -20,7 +20,6 @@ class ApiHelper {
               forceRefresh: true,
             ))
         .catchError((onError) {
-          print("wtf");
       print(onError.toString());
       throw "network or server problem";
     });
